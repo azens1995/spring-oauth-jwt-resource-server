@@ -5,13 +5,12 @@ This repository enlists the JWT impelementation for the access and refresh token
 ## Description
 
 1. Add the required dependencies for the project.
-2. Configure the `application.properties` to hold the `jwt.key` symmetric key used for signing tokens.
+2. Configure the `application.properties` to hold public key exchange urls from oauth server.
 3. Create the endpoint for testing.
 4. Create the configuration class named `ResourceServerConfig` and extend it with `ResourceServerConfigurerAdapter`.
 5. Use annotation `@EnableResourceServer` to mark the configuration as the auth resource server.
-6. Create the bean  for JWT Token configurer with jwt key.
-7. Create the bean for the token store with JWT Token store.
-8. Configure the resource to use the token store.
+
+Note: Since OAuth server is used for receiving the public key, no any configuration is required in the `ResourceServerConfig`. All the exising code can be deleted.
 
 
 ## Usages
@@ -27,4 +26,4 @@ Hello World!!
 
 ## References
 
-[OAuth-Auth-Server](https://github.com/azens1995/spring-oauth-server/tree/auth-server-jwt)
+[OAuth-Auth-Server](https://github.com/azens1995/spring-oauth-server/tree/public-key-exchange)
