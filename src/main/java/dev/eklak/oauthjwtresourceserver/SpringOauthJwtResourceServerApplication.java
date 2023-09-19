@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringOauthJwtResourceServerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringOauthJwtResourceServerApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(SpringOauthJwtResourceServerApplication.class,
+            args);
+    }
 }
