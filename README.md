@@ -26,4 +26,4 @@ Hello World!!
 
 ## References
 
-[OAuth-Auth-Server](https://github.com/azens1995/spring-oauth-server/tree/auth-server-jwt-asym-key)
+[OAuth-Auth-Server](https://github.com/azens1995/spring-oauth-server/tree/public-key-exchange)
